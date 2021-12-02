@@ -109,3 +109,6 @@ dist
 # Hardhat objects
 cache
 artifacts
+
+*.public
+*.private
