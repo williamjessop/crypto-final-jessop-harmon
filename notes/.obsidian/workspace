@@ -7,8 +7,11 @@
         "id": "0176bfbff52afe3a",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Solidity.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Solidity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,14 +88,15 @@
   },
   "active": "0176bfbff52afe3a",
   "lastOpenFiles": [
-    "Ethereum.md",
     "Solidity.md",
-    "docs.soliditylang.org.md",
+    "HardHat.md",
+    "Accounts.md",
+    "Ethereum.md",
+    "Ethereum Wallets.md",
+    "Alchemy.md",
     "dApps.md",
-    "Smart Contracts.md",
     "Non Fungible Tokens.md",
-    "Ether.md",
-    "EVM.md",
-    "Wallets.md"
+    "Ethereum Development.md",
+    "docs.soliditylang.org.md"
   ]
 }

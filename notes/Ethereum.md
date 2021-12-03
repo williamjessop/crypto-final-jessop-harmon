@@ -3,10 +3,12 @@ Ethereum is a blockchain computing platform
 # Table of Contents
 [[Ether]]
 [[EVM]]
-[[Wallets]]
+[[Ethereum Wallets]]
+[[Accounts]]
 [[Smart Contracts]]
 [[Non Fungible Tokens]]
 [[Solidity]]
+[[HardHat]]
 
 Extra Resources:
 NFT Tutorial: [https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/](https://ethereum.org/en/developers/tutorials/how-to-write-and-deploy-an-nft/)  
