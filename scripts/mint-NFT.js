@@ -49,5 +49,5 @@ async function mintNFT(tokenURI) {
 }
 
 mintNFT(
-  "https://jessop-harmon-nft-bucket.s3.amazonaws.com/nft-metadata.json"
+  "https://jessop-harmon-nft-bucket.s3.amazonaws.com/jessop-harmon-crypto-final-submission.json"
 )

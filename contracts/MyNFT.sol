@@ -14,7 +14,7 @@ contract MyNFT is ERC721URIStorage, Ownable {
     uint totalTokens;
 
     constructor(string memory _name, string memory _symbol) ERC721(_name, _symbol) {
-        totalTokens = 5;
+        totalTokens = 1;
     }
 
     error allTokensMinted();

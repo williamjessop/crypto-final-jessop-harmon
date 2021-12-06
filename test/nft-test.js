@@ -12,19 +12,14 @@ describe("MyNFT", function () {
     });
 
     it("Can mint 1 nft", async function () {
-        const setGreetingTx = await nft.mintNFT("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266", "https://jessop-harmon-nft-bucket.s3.amazonaws.com/nft-metadata.json");
+        const setGreetingTx = await nft.mintNFT("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266", "https://jessop-harmon-nft-bucket.s3.amazonaws.com/jessop-harmon-crypto-final-submission.json");
         await setGreetingTx.wait();
     })
 
-    it("Can only mint 5 total", async function () {
-        for(let i=0; i < 4; i++){
-            let setGreetingTx = await nft.mintNFT("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266", "https://jessop-harmon-nft-bucket.s3.amazonaws.com/nft-metadata.json");
-            await setGreetingTx.wait();
-        }
-
+    it("Can only mint 1 nft total", async function () {
         await expect(nft.mintNFT(
             "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266", 
-            "https://jessop-harmon-nft-bucket.s3.amazonaws.com/nft-metadata.json")
+            "https://jessop-harmon-nft-bucket.s3.amazonaws.com/jessop-harmon-crypto-final-submission.json")
             
         ).to.be.revertedWith("allTokensMinted")
     })
