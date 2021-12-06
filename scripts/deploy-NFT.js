@@ -3,7 +3,7 @@ const hre = require("hardhat");
 async function main() {
 
   const MyNFT = await hre.ethers.getContractFactory("MyNFT");
-  const nft = await MyNFT.deploy("NFT Attempt 1", "TRY");
+  const nft = await MyNFT.deploy("Limited NFT", "LIM");
 
   await nft.deployed();
 
