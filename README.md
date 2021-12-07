@@ -48,7 +48,9 @@ We used a library known as dotenv to manage our environment and secret keys.
 We used a tool known as [Etherscan](https://ropsten.etherscan.io/) to find our transactions and contracts on the test chain.
 
 We also used 2 Ethereum faucets to get test coins for our project. They can be found here: 
+
 https://faucet.dimensions.network/
+
 https://faucet.ropsten.be/
 
 
@@ -60,14 +62,19 @@ For this project we used the Ethereum account at the following address: 0xFEA8fF
 ### List of Contract Addresses
 | Label | Symbol | Address |
 | :--- | :--- | :--- |
-| First NFT Deployed | TRY | Find me |
+| First Contract Deployed | (N/A) | 0xFebDC55A7Fd3E6dd7BDcB37c4B17bA36Ef1714e1 |
+| First NFT Deployed | TRY | 0xabe543B146FcEe03D173c32933732b1C9533E1B7 |
 | Limited NFT | LIM | 0xD8b26fBa6A98d3E44444f2C885636Fda60ec2a63 |
 | Final NFT | FIN | 0x99a1c91C40E10010A07Db3398c0eF7586215C624 |
 
 ### List of Interesting Transactions
 | Label | Action | Transaction Hash |
 | :--- | :--- | :--- |
-| First Contract | Contract Deploy |  |
+| First Test Contract | Contract Deploy | 0xac96fd958d75517cb90ed38b949c2c479d7058f708ebf6e2dc3a975626d8cacb |
+| First NFT Contract | Contract Deploy | 0x9e1e2f5f306fafd25b2f9701c6e6f5c4d9b41dd18949e0f421d81755e7451d06 |
 | First NFT | Mint NFT | 0x2080a843fdbffc72711c24c948d169297d2f7b5f2be6ad5e4f89e3492d3974c8 |
-| Final Contract | Contract Deploy |  |
+| Final NFT Contract | Contract Deploy | 0x798c0df7a640fac6121b032be7bb5a63afc320f5480140a6930dd004c6a4da70 |
 | Final NFT | Mint NFT | 0xfebf6ef8537f11b184c09686cccd9842cbd574c0c5f67be51b299cab4fc79cf3 |
+| Fail to Mint Past Limit | Mint NFT | 0xe2a9d1000b537666e2a02874b5b420a403a12606071bc35b53ba2c10bd1a5090 |
+
+You can use [Etherscan](https://ropsten.etherscan.io/) to search these transactions and contracts to see the full details.
