@@ -2,6 +2,7 @@ require("dotenv").config()
 const API_URL = process.env.API_URL
 const PUBLIC_KEY = process.env.PUBLIC_KEY
 const PRIVATE_KEY = process.env.PRIVATE_KEY
+const NFT_URI = process.env.NFT_URI
 
 const { createAlchemyWeb3 } = require("@alch/alchemy-web3")
 const web3 = createAlchemyWeb3(API_URL)
@@ -48,6 +49,4 @@ async function mintNFT(tokenURI) {
     })
 }
 
-mintNFT(
-  "https://jessop-harmon-nft-bucket.s3.amazonaws.com/jessop-harmon-crypto-final-submission.json"
-)
+mintNFT(NFT_URI)
