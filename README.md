@@ -25,6 +25,8 @@ For this project, we deployed our own NFT contracts to the Ethereum *Ropsten* te
 
 The project runs in nodejs and makes use of many different libraries and services as described below. The contract code is written in the programming language Solidity.
 
+##### Important note: This project was pair programmed. Although "williamjessop" is tagged on most commits, both "williamjessop" and "Kota117" programmed this project as a team.
+
 ---
 
 ## Project Structure
