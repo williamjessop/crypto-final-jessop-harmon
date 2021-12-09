@@ -15,7 +15,7 @@
 | Name | Ethereum NFT's |
 | Description | An example of an Ethereum NFT contract + Driver Code |
 | Due Date | 14-Dec-2021 |
-| Status | In Progress |
+| Status | Done |
 | Self Grade | 100/100 |
 | Notes | The full description of this project is below in this README.|
 
